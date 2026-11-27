@@ -9,3 +9,12 @@ console.log(visitors);
 
 visitors += 200;
 console.log(visitors);
+
+const google = 1500;
+const facebook = 800;
+const instagram = 600;
+let totalVisitors = 0;
+
+totalVisitors += google + facebook + instagram;
+
+console.log(totalVisitors);
